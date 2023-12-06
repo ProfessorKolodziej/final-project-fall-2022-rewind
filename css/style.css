@@ -62,7 +62,7 @@ p1{
 	display: inline-block;
 }
 .page2{
-	background-image: url('/Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/images/page2bg.jpeg');
+	background-image: url('images/page2bg.jpeg');
 	background-size: cover;
 	background-position: center;
 	box-sizing: border-box;
@@ -408,7 +408,7 @@ p1{
 	border: none;
 }
 .page-6{
-	background-image: url('/Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/images/party-bg.png');
+	background-image: url('images/party-bg.png');
 	background-size: cover;
 	background-position: center;
 	box-sizing: border-box;
@@ -458,7 +458,7 @@ p1{
 	line-height: 28px;
 }
 .ending-p6{
-	background-image: url('/Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/images/time machine 1.png');
+	background-image: url('images/time-machine-1.png');
 	background-position: center;
 	display: grid;
 	place-items: center;
