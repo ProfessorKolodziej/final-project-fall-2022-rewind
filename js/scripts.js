@@ -8,6 +8,6 @@
 //homepage
 var p1ButtonContainer = document.querySelector('.p1button-container');
 p1ButtonContainer.addEventListener('click', function() {
-  var targetURL = 'file:///Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/page2.html';
+  var targetURL = 'page2.html';
   window.location.href = targetURL;
 });
