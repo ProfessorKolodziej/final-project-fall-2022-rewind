@@ -1,66 +1,511 @@
 /*
-CSS controls the styling of the page.
-You can write a color in directly, or use variables.
-Try changing the color from blue to red in the
-primary color variable below.
-*/
-
-:root {
-	--color-primary: blue;
-	--color-secondary: #c00;
-}
-
-/*
-CSS doesn't allow variables to be used in media
-queries just yet, but you can use these values
-to help you out.
-
-	--size-xs: 320px;
-	--size-sm: 480px;
 	--size-md: 768px;
 	--size-lg: 1024px;
 	--size-xl: 1200px;
 */
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Island+Moments&family=Junge&display=swap');
 
-*{
-	box-sizing: border-box
- }
-
-.page-1{
-	background-image:url(“/Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/images/map-page.png”);
-	width: 1280px;
-	height: 832px;
+body{
+	background-color: #E6D2D5;
+	margin: 0;
 }
+
+img {
+	max-width: 100%;
+}
+.page-1{
+	background-image: url('/Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/images/page1-bg.jpeg');
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	height: 472px;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+
 .p1headline{
 	color: #000;
 	text-align: center;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	font-family: "Island Moments";
-	font-size: 128px;
+	font-family: Island Moments, cursive;
+	font-size: 48px;
    font-weight: 400;
-   letter-spacing: -2.56px;
+	margin: 0px;
 }
 p1{
 	color: #000;
-	font-family: Junge;
-	font-size: 28px;
+	font-family: Junge, serif;
+	font-size: 16px;
 	font-weight: 400;
-	line-height: 48px; /* 175% */
+	line-height: 48px;
 	border-radius: 12px;
-	background: #FFF;
+	background: #fff;
 	display: flex;
 	padding: 24px;
 	flex-direction: column;
 	gap: 16px;
-	max-width: 100%;
+	margin: 16px;
 }
-
-
+.p1button-container{
+	text-align: center;
+}
+.p1button{
+	color: #fff;
+	font-family: Junge, serif;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 18px;
+	border-radius: 6px;
+	background-color: #7749F8;
+	padding: 16px 24px;
+	display: inline-block;
+}
+.page2{
+	background-image: url('/Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/images/page2bg.jpeg');
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+.Wear{
+	color: #000;
+	text-align: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Island Moments, cursive;
+	font-size: 48px;
+   font-weight: 400;
+	margin: 0px;
+	padding: 36px;
+}
+.female-intro{
+	display: flex;
+	flex-direction: column;
+}
+.femaleimg-container{
+	text-align: center;
+	order: 2;
+}
+.femaleimg{
+	width: 30%;
+	max-height: 200px;
+}
+.female{
+	order: 1;
+	border-radius: 12px;
+	background: #FFF;
+	padding: 24px;
+	margin: 6px;
+}
+.Female-wear{
+	flex-direction: column;
+	gap: 16px;
+	color: #000;
+	font-family: Junge, serif;
+	font-size: 24px;
+	align-items: center;
+}
+.female-p2{
+	line-height: 28px;
+	gap: 8px;
+	color: #000;
+	font-family: Junge, serif;
+	font-size: 16px;
+}
+.male-intro{
+	display: flex;
+	flex-direction: column;
+}
+.maleimg-container{
+	text-align: center;
+	order: 2;
+}
+.maleimg{
+	width: 30%;
+	max-height: 200px;
+	margin-bottom: 6px;
+}
+.male{
+	order: 1;
+	border-radius: 12px;
+	background: #FFF;
+	padding: 24px;
+	margin: 6px;
+}
+.male-wear{
+	flex-direction: column;
+	gap: 16px;
+	color: #000;
+	font-family: Junge, serif;
+	font-size: 24px;
+	align-items: center;
+}
+.male-p2{
+	line-height: 28px;
+	gap: 8px;
+	color: #000;
+	font-family: Junge, serif;
+	font-size: 16px;
+}
+.p2button-container{
+	text-align: center;
+}
+.p2button{
+	color: #FFF;
+	font-family: Junge, serif;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 18px;
+	border-radius: 6px;
+	background: #7749F8;;
+	background-size: contain;
+	padding: 16px 24px;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 6px;
+}
+.map-page{
+	background-color: #E6D2D5;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+.Linan{
+	color:#343A40;
+   text-align: justify;
+	font-family: Junge, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+   line-height: normal;
+}
+.buttonp4{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 15px;
+}
+.h4home-container{
+	text-align: center;
+	background-color: #7749F8;
+	border-radius: 6px;
+	display: inline-block;
+	margin: 5px;
+}
+.button-home{
+	font-family: Junge, serif;
+   font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 18px;
+	color: #FFF;
+}
+.h4back-container{
+	text-align: center;
+	background-color: #7749F8;
+	border-radius: 6px;
+	display: inline-block;
+	margin:5px;
+}
+.button-back{
+	font-family: Junge, serif;
+   font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 18px;
+	color: #FFF;
+}
+.p3map-container{
+	position: relative;
+}
+.images-map{
+	max-width: auto;
+	height: 391px;
+}
+.market{
+	color: #FFF;
+	background-color:#7749F8;
+	border-radius: 3px;
+	font-family: Junge, serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+}
+.party{
+	color: #FFF;
+	background-color:#7749F8;
+	border-radius: 3px;
+	font-family: Junge, serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	display: inline-block;
+	position: absolute;
+	top: 30%;
+	left: 60%;
+}
+.market-page{
+	color: #000;
+	text-align: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Island Moments, cursive;
+	font-size: 48px;
+   font-weight: 400;
+	margin: 0px;
+	padding: 36px;
+}
+.snacks{
+	display: flex;
+	flex-direction: column;
+}
+.snack-intro{
+	border-radius: 12px;
+   background: #FFF;
+   padding: 24px;
+   margin: 6px;
+	margin-bottom: 18px;
+}
+.snack-name{
+	color: #000;
+   font-family: Junge, serif;
+   font-size: 24px;
+	margin: 20px;
+}
+.snack-p{
+	color: #000;
+	font-family: Junge, serif;
+	font-size: 16px;
+	line-height: 28px;
+}
+.drink{
+	display: flex;
+	flex-direction: column;
+}
+.drink-intro{
+	border-radius: 12px;
+   background: #FFF;
+   padding: 24px;
+   margin: 6px;
+	margin-bottom: 18px;
+}
+.drink-name{
+	color: #000;
+   font-family: Junge, serif;
+   font-size: 24px;
+	margin: 20px;
+}
+.drink-p{
+	color: #000;
+	font-family: Junge, serif;
+	font-size: 16px;
+	line-height: 28px;
+}
+.food{
+	display: flex;
+	flex-direction: column;
+}
+.food-intro{
+	border-radius: 12px;
+   background: #FFF;
+   padding: 24px;
+   margin: 6px;
+	margin-bottom: 18px;
+}
+.food-name{
+	color: #000;
+   font-family: Junge, serif;
+   font-size: 24px;
+	margin: 20px;
+}
+.food-p{
+	color: #000;
+	font-family: Junge, serif;
+	font-size: 16px;
+	line-height: 28px;
+}
+.market-button-container{
+	text-align: center;
+}
+.market-button{
+	color: #FFF;
+   font-family: Junge, serif;
+   font-size: 28px;
+   font-weight: 400;
+   line-height: 18px;
+   border-radius: 6px;
+   background: #7749F8;
+   padding: 16px 24px;
+   margin-top: 0px;
+   margin-bottom: 6px;
+	display: inline-block;
+}
+.page5{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.party-button1{
+	background-color: #7749F8;
+	color: #FFF;
+   font-family: Junge, serif;
+   font-size: 28px;
+	border-radius: 6px;
+	border: none;
+	margin: 10px;
+	justify-content: center;
+	align-items: center;
+}
+.party-img1-container{
+	text-align: center;
+}
+.party-img1{
+	width: 50%;
+	height: auto;
+}
+.party-des-1{
+	width: 100%;
+	border-radius: 12px;
+	background: #FFF;
+	line-height: 28px;
+	color: #000;
+	font-family: Junge, serif;
+	font-size: 16px;
+	display: inline-block;
+	margin: 10px;
+}
+.party-img2-container{
+	text-align: center;
+}
+.party-img2{
+	width: 50%;
+	height: auto;
+}
+.party-button2{
+	display:grid;
+	grid-template-columns: 1fr 1.5fr;
+	color: #FFF;
+   font-family: Junge, serif;
+   font-size: 28px;
+	gap: 10px;
+	text-align: center;
+	margin: 10px;
+}
+.Party-time{
+	background-color: #7749F8;
+	border-radius: 6px;
+	border: none;
+}
+.Back-to-map{
+	background-color: #7749F8;
+	border-radius: 6px;
+	border: none;
+}
+.page-6{
+	background-image: url('/Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/images/party-bg.png');
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	display: grid;
+	place-items: center;
+	height: 100%;
+	text-align: center;
+	margin:10px;
+}
+.back-to-map{
+	background-color: #7749F8;
+	color: #FFF;
+   font-family: Junge, serif;
+   font-size: 20px;
+	border-radius: 6px;
+	border: none;
+	margin: 10px;
+}
+.join-button{
+	background-color: #7749F8;
+	color: #FFF;
+   font-family: Junge, serif;
+   font-size: 20px;
+	border-radius: 6px;
+	border: none;
+	margin: 10px;
+}
+.back-to-2023{
+	background-color: #7749F8;
+	color: #FFF;
+   font-family: Junge, serif;
+   font-size: 20px;
+	border-radius: 6px;
+	border: none;
+	margin: 10px;
+}
+.party-description-2{
+	border-radius: 12px;
+   background: #FFF;
+   padding: 24px;
+   margin: 6px;
+	margin-bottom: 18px;
+	display: inline-block;
+	color: #000;
+	font-family: Junge, serif;
+	font-size: 16px;
+	line-height: 28px;
+}
+.ending-p6{
+	background-image: url('/Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/images/time machine 1.png');
+	background-position: center;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+.ending-p1{
+	display: none;
+}
+.ending-p2{
+	display: none;
+}
+.ending-button{
+	display: flex;
+   flex-direction: column;
+   align-items: center;
+	margin-bottom: auto;
+}
+.time-is-up{
+	color:#FFF;
+	background-color: #DC3545;
+	font-family: Junge, serif;
+   font-size: 24px;
+	border-radius: 6px;
+	border: none;
+	margin: 10px;
+}
+.Back{
+	color:#FFF;
+	background-color: #F1AEB5;
+	font-family: Junge, serif;
+   font-size: 20px;
+	border-radius: 6px;
+	border: none;
+	margin: 10px;
+}
 /* This uses the same value as --size-xs. */
-@media screen and (width >= 320px) {
-	.content-container {
-		margin: 0 auto;
-		max-width: 768px;
+@media screen and (width >= 843px) {
+	.p1headline{
+		font-size: 78px;
+	}
+	p1{
+		font-size: 28px;
+	}
+	.p1button{
+		font-size:38px;
+	}
+	.Wear{
+		font-size: 68px;
 	}
 }
