@@ -14,7 +14,7 @@ img {
 	max-width: 100%;
 }
 .page-1{
-	background-image: url('/Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/images/page1-bg.jpeg');
+	background-image: url('../images/page1-bg.jpeg');
 	background-size: cover;
 	background-position: center;
 	box-sizing: border-box;
