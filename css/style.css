@@ -495,7 +495,7 @@ p1{
 	margin: 10px;
 }
 /* This uses the same value as --size-xs. */
-@media screen and (width >= 843px) {
+@media screen and (width >= 768px) {
 	.p1headline{
 		font-size: 78px;
 	}
@@ -507,5 +507,43 @@ p1{
 	}
 	.Wear{
 		font-size: 68px;
+	}
+	.female-intro{
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+	}
+	.femaleimg-container{
+		width: 100%;
+		height: 100%;
+		margin: 6px;
+	}
+	.femaleimg{
+		object-fit: cover;
+		width: 50%;
+		max-height: none;
+	}
+	.male-intro{
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+	}
+	.male{
+		order: 2;
+	}
+	.maleimg-container{
+		order: 1;
+		width: 100%;
+		height: 100%;
+		margin: 6px;
+	}
+	.maleimg{
+		object-fit: cover;
+		width: 50%;
+		max-height: none;
+	}
+	.market{
+		font-size: 28px;
+	}
+	.party{
+		font-size: 28px;
 	}
 }
