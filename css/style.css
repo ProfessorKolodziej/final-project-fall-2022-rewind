@@ -625,5 +625,9 @@ p1{
 .time-img{
 	display: grid;
 	grid-template-columns: 0.9fr 1fr;
+	z-index: 1;
+}
+.ending-button{
+	z-index: 2;
 }
 }
