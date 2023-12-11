@@ -591,4 +591,15 @@ p1{
 .food-intro{
 	padding: 27px;
 }
+.party-img1-container{
+	column-gap: 20px;
+   display: inline-grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.party-button2{
+	column-gap: 20px;
+   display: inline-grid;
+   grid-template-columns: 1fr 1fr;
+}
+
 }
