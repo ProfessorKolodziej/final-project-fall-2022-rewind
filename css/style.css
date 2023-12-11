@@ -459,7 +459,7 @@ p1{
 	line-height: 28px;
 }
 .ending-p6{
-	background-image: url('images/time-machine-1.png');
+	background-image: url('../images/time-machine-1.png');
 	background-position: center;
 	display: grid;
 	place-items: center;
