@@ -604,6 +604,7 @@ p1{
 .page5{
 	margin-top: 60px;
 	padding: 0px;
+	background-image: url('../images/page2bg.jpeg');
 }
 .page-6{
 	display: inline grid;
