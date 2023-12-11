@@ -562,3 +562,9 @@ p1{
 		font-size: 28px;
 	}
 }
+@media screen and (width >= 1200px){
+.female-male{
+	display: grid;
+	grid-template-columns: 1fr, 1fr;
+}
+}
