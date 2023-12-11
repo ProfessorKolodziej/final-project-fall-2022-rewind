@@ -569,5 +569,11 @@ p1{
 .female.img{
 	width: auto;
 	margin-right: 20px;
-}
+   }
+.male-p2{
+	width: auto;
+   }
+.images-map{
+	height: none;
+   }
 }
