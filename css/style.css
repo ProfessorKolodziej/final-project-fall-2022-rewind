@@ -639,5 +639,7 @@ p1{
 }
 .ending-button{
 	z-index: 2;
+	flex-direction: column;
+	justify-content: center;
 }
 }
