@@ -643,5 +643,6 @@ p1{
 	z-index: 2;
 	justify-content: center;
 	margin: 0px;
+	gap: 50px;
 }
 }
