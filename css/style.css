@@ -619,6 +619,9 @@ p1{
 .back-to-2023{
 	font-size: 24px;
 }
+.ending-p6{
+	background-image: none;
+}
 .time-img{
 	display: grid;
 	grid-template-columns: 0.9fr 1fr;
