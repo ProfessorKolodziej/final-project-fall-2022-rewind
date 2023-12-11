@@ -555,4 +555,10 @@ p1{
 	.Back-to-map{
 		font-size: 24px;
 	}
+	.time-is-up{
+		font-size: 28px;
+	}
+	.Back{
+		font-size: 28px;
+	}
 }
