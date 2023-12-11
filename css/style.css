@@ -627,6 +627,12 @@ p1{
 	grid-template-columns: 0.9fr 1fr;
 	z-index: 1;
 }
+.ending-p1{
+	display: block;
+}
+.ending-p2{
+	display: block;
+}
 .ending-button{
 	z-index: 2;
 }
