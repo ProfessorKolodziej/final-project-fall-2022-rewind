@@ -608,6 +608,12 @@ p1{
 }
 .page-6{
 	display: inline grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1.5fr;
+}
+.back-to-map{
+	font-size: 24px;
+}
+.join-button{
+	font-size: 24px;
 }
 }
