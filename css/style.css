@@ -62,7 +62,7 @@ p1{
 	display: inline-block;
 }
 .page2{
-	background-image: url('images/page2bg.jpeg');
+	background-image: url('../images/page2bg.jpeg');
 	background-size: cover;
 	background-position: center;
 	box-sizing: border-box;
