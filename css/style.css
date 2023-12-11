@@ -409,7 +409,7 @@ p1{
 	border: none;
 }
 .page-6{
-	background-image: url('images/party-bg.png');
+	background-image: url('../images/party-bg.png');
 	background-size: cover;
 	background-position: center;
 	box-sizing: border-box;
@@ -548,5 +548,11 @@ p1{
 	.party-img2{
 		width: 60%;
 		height: auto;
+	}
+	.Party-time{
+		font-size: 24px;
+	}
+	.Back-to-map{
+		font-size: 24px;
 	}
 }
