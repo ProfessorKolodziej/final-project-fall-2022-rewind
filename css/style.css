@@ -564,7 +564,10 @@ p1{
 }
 @media screen and (width >= 1200px){
 .female-male{
-	display: grid;
-	grid-template-columns: 1fr, 1fr;
+	display: inline-flex;
+   }
+.female.img{
+	width: auto;
+	margin-right: 20px;
 }
 }
