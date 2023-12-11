@@ -584,6 +584,11 @@ p1{
 	height: auto;
    }
 .market-layout{
-	display: grid
+	column-gap: 20px;
+   display: inline-grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.food-intro{
+	padding: 27px;
 }
 }
