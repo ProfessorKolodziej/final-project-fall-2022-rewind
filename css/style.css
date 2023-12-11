@@ -616,4 +616,11 @@ p1{
 .join-button{
 	font-size: 24px;
 }
+.back-to-2023{
+	font-size: 24px;
+}
+.time-img{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
 }
