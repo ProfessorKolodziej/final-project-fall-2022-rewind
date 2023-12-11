@@ -591,9 +591,9 @@ p1{
 .food-intro{
 	padding: 27px;
 }
-.party-img1-container{
+.page5-layout{
 	column-gap: 20px;
-   display: inline-grid;
+   display: grid;
    grid-template-columns: 1fr 1fr 1fr;
 }
 .party-button2{
@@ -601,5 +601,4 @@ p1{
    display: inline-grid;
    grid-template-columns: 1fr 1fr;
 }
-
 }
