@@ -565,13 +565,17 @@ p1{
 @media screen and (width >= 1200px){
 .female-male{
 	display: inline-flex;
+	column-gap: 20px;
    }
-.female.img{
+.femaleimg{
 	width: auto;
-	margin-right: 20px;
    }
-.male-p2{
+.male-intro{
+	column-gap: 10px;
+	}
+.maleimg{
 	width: auto;
+	max-height: none;
    }
 .images-map{
 	height: none;
