@@ -605,5 +605,8 @@ p1{
 	margin-top: 60px;
 	padding: 0px;
 }
-
+.page-6{
+	display: inline grid;
+	grid-template-columns: 1fr 1fr;
+}
 }
