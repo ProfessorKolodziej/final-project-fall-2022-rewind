@@ -626,6 +626,7 @@ p1{
 	display: grid;
 	grid-template-columns: 0.9fr 1fr;
 	z-index: 1;
+	position:absolute;
 }
 .ending-p1{
 	display: block;
