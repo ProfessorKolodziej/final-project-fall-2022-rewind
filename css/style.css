@@ -251,6 +251,9 @@ p1{
 	top: 30%;
 	left: 60%;
 }
+.marketp6{
+	background-image:url('../images/page1-bg.jpeg');
+}
 .market-page{
 	color: #000;
 	text-align: center;
@@ -578,6 +581,6 @@ p1{
 	max-height: none;
    }
 .images-map{
-	height: none;
+	height: auto;
    }
 }
