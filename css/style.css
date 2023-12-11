@@ -627,11 +627,14 @@ p1{
 	grid-template-columns: 0.9fr 1fr;
 	z-index: 1;
 	position:absolute;
+	height: 100%;
 }
 .ending-p1{
+	height: 100%;
 	display: block;
 }
 .ending-p2{
+	height: 100%;
 	display: block;
 }
 .ending-button{
