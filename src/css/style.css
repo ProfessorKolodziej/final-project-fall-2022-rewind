@@ -62,7 +62,7 @@ p1{
 	display: inline-block;
 }
 .page2{
-	background-image: url('/Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/images/page2bg.jpeg');
+	background-image: url('../images/page2bg.jpeg');
 	background-size: cover;
 	background-position: center;
 	box-sizing: border-box;
@@ -251,6 +251,9 @@ p1{
 	top: 30%;
 	left: 60%;
 }
+.marketp6{
+	background-image:url('../images/page1-bg.jpeg');
+}
 .market-page{
 	color: #000;
 	text-align: center;
@@ -350,6 +353,7 @@ p1{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 20px;
 }
 .party-button1{
 	background-color: #7749F8;
@@ -379,6 +383,7 @@ p1{
 	font-size: 16px;
 	display: inline-block;
 	margin: 10px;
+	padding-left: 10px;
 }
 .party-img2-container{
 	text-align: center;
@@ -395,7 +400,6 @@ p1{
    font-size: 28px;
 	gap: 10px;
 	text-align: center;
-	margin: 10px;
 }
 .Party-time{
 	background-color: #7749F8;
@@ -408,7 +412,7 @@ p1{
 	border: none;
 }
 .page-6{
-	background-image: url('/Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/images/party-bg.png');
+	background-image: url('../images/party-bg.png');
 	background-size: cover;
 	background-position: center;
 	box-sizing: border-box;
@@ -458,7 +462,7 @@ p1{
 	line-height: 28px;
 }
 .ending-p6{
-	background-image: url('/Users/junmanyang/Documents/GitHub/final-project-fall-2022-rewind/src/images/time machine 1.png');
+	background-image: url('../images/time-machine-1.png');
 	background-position: center;
 	display: grid;
 	place-items: center;
@@ -495,17 +499,152 @@ p1{
 	margin: 10px;
 }
 /* This uses the same value as --size-xs. */
-@media screen and (width >= 843px) {
+@media screen and (width >= 768px) {
 	.p1headline{
 		font-size: 78px;
-	}
-	p1{
-		font-size: 28px;
-	}
-	.p1button{
-		font-size:38px;
 	}
 	.Wear{
 		font-size: 68px;
 	}
+	.female-intro{
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+	}
+	.femaleimg-container{
+		width: 100%;
+		height: 100%;
+		margin: 6px;
+	}
+	.femaleimg{
+		object-fit: cover;
+		width: 50%;
+		max-height: none;
+	}
+	.male-intro{
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+	}
+	.male{
+		order: 2;
+	}
+	.maleimg-container{
+		order: 1;
+		width: 100%;
+		height: 100%;
+		margin: 6px;
+	}
+	.maleimg{
+		object-fit: cover;
+		width: 50%;
+		max-height: none;
+	}
+	.market{
+		font-size: 28px;
+	}
+	.party{
+		font-size: 28px;
+	}
+	.party-img1 {
+	   width: 60%;
+	   height: auto;
+	}
+	.party-img2{
+		width: 60%;
+		height: auto;
+	}
+	.Party-time{
+		font-size: 24px;
+	}
+	.Back-to-map{
+		font-size: 24px;
+	}
+	.time-is-up{
+		font-size: 28px;
+	}
+	.Back{
+		font-size: 28px;
+	}
+}
+@media screen and (width >= 1200px){
+.female-male{
+	display: inline-flex;
+	column-gap: 20px;
+   }
+.femaleimg{
+	width: auto;
+   }
+.male-intro{
+	column-gap: 10px;
+	}
+.maleimg{
+	width: auto;
+	max-height: none;
+   }
+.images-map{
+	height: auto;
+   }
+.market-layout{
+	column-gap: 20px;
+   display: inline-grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.food-intro{
+	padding: 27px;
+}
+.page5-layout{
+	column-gap: 20px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.party-button2{
+	column-gap: 20px;
+   display: inline-grid;
+   grid-template-columns: 1fr 1fr;
+}
+.page5{
+	margin-top: 60px;
+	padding: 0px;
+	background-image: url('../images/page2bg.jpeg');
+}
+.page-6{
+	display: inline grid;
+	grid-template-columns: 1fr 1.5fr;
+}
+.back-to-map{
+	font-size: 24px;
+}
+.join-button{
+	font-size: 24px;
+}
+.back-to-2023{
+	font-size: 24px;
+}
+.ending-p6{
+	background-image: none;
+}
+.time-img{
+	display: grid;
+	grid-template-columns: 0.9fr 1fr;
+	z-index: 1;
+	position:absolute;
+	height: 100%;
+}
+.ending-p1{
+	height: 100%;
+	display: block;
+}
+.ending-p2{
+	height: 100%;
+	display: block;
+}
+.ending-button{
+	font-size: 28px;
+	display: inline-block;
+	z-index: 2;
+	margin: 0px;
+	gap: 50px;
+}
+.time-is-up{
+	margin-right: 60px;
+}
 }
