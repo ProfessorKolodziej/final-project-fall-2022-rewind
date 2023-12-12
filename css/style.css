@@ -650,7 +650,7 @@ img {
 	}
 }
 
-@media screen and (width >= 1200px){
+@media screen and (width >= 1024px){
 .female-male{
 	display: inline-flex;
 	column-gap: 20px;
