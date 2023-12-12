@@ -641,8 +641,10 @@ p1{
 	font-size: 28px;
 	display: inline-block;
 	z-index: 2;
-	justify-content: center;
 	margin: 0px;
 	gap: 50px;
+}
+.time-is-up{
+	margin-right: 60px;
 }
 }
