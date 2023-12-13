@@ -481,6 +481,7 @@ img {
 }
 
 .back-to-map{
+	display: inline-block;
 	background-color: #7749F8;
 	color: #FFF;
    font-family: Junge, serif;
@@ -501,6 +502,7 @@ img {
 }
 
 .back-to-2023{
+	display: inline-block;
 	background-color: #7749F8;
 	color: #FFF;
    font-family: Junge, serif;
@@ -749,6 +751,6 @@ img {
 }
 
 .time-is-up{
-	margin-right: 60px;
+	display: inline-block;
 }
 }
