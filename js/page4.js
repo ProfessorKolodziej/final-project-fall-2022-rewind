@@ -1,5 +1,5 @@
-var marketButtonContainer = document.querySelector('.market-button-container');
+let marketButtonContainer = document.querySelector('.market-button-container');
 marketButtonContainer.addEventListener('click', function() {
-  var targetURL = 'page3.html';
+  let targetURL = 'page3.html';
   window.location.href = targetURL;
 });
