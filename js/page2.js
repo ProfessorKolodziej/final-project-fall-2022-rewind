@@ -1,5 +1,5 @@
-var p2ButtonContainer = document.querySelector('.p2button-container');
+let p2ButtonContainer = document.querySelector('.p2button-container');
 p2ButtonContainer.addEventListener('click', function() {
-  var targetURL = 'page3.html';
+  let targetURL = 'page3.html';
   window.location.href = targetURL;
 });

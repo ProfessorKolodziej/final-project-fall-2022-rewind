@@ -1,6 +1,6 @@
-var backButton = document.querySelector('.Back');
+let backButton = document.querySelector('.Back');
 
 backButton.addEventListener('click', function() {
-	var targetURL = 'index.html';
+	let targetURL = 'index.html';
 	window.location.href = targetURL;
 });
