@@ -10,12 +10,3 @@ backto2023Button.addEventListener('click', function() {
 	let targetURL = 'page7-end.html';
 	window.location.href = targetURL;
 });
-
-let funButton = document.getElementById("funButton");
-  funButton.addEventListener("click", function() {
-    navigateToLink();
-  });
-
-  let navigateToLink = function() {
-    window.location.href = "https://www.bilibili.com/video/BV1VY4y1X7hv/?spm_id_from=333.337.search-card.all.click";
-  };
