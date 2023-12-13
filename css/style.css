@@ -404,6 +404,7 @@ img {
 }
 
 .party-button1{
+	display: inline-block;
 	background-color: #7749F8;
 	color: #FFF;
    font-family: Junge, serif;
