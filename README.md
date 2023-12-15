@@ -1,8 +1,9 @@
-# Final Project (Replace with your project name)
+# Rewind (Replace with your project name)
 
 ## Description
 
 Please add a brief description of your final project here.
+Rewind is a website that allows users to traverse time and space to experience ancient Chinese life.Including the food culture, party culture.
 
 ## Project Documentation
 
